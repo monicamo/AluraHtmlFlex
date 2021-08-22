@@ -1,7 +1,7 @@
 .flexContainer:last-child{ margin-top: 2em; }
 body { margin: 0; padding: 0; }
 div { height: 50px; width: 50px; }
-div:nth-child(1) { background-color: red; width: 80px; height: 80px;}
+div:nth-child(1) { background-color: red; width: 50px; height: 50px;}
 div:nth-child(2) { background-color: blue; }
 div:nth-child(3) { background-color: green; }
 div:nth-child(4) { background-color: yellow; }
@@ -12,8 +12,21 @@ div:nth-child(8) { background-color: silver; }
 
 .flexContainer {
   display: flex;
-  flex-direction: column;
+ 
+  /* flex-direction: column;
   justify-content: space-around;
-  align-items: center; 
-  height: 500px;
+
+  height: 500px; */
+}
+
+.flexItem {
+  flex: 0 1 25%;
+  /* flex-basis: 200px; */
+   /* flex-grow:  1; */
+  /* flex-shrink: 0; */
+}
+
+.primeiro {
+  /* flex-grow: 3; */
+  /* flex-shrink: 2; */
 }
