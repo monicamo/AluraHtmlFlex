@@ -67,6 +67,7 @@
 .videoSobre-video {
    margin-right: 20px;
    flex-grow: 1;
+   flex-shrink: 2;
 }
 
 .videoSobre-sobre {
@@ -124,5 +125,13 @@
 
   .cabecalhoPrincipal-nav-link-app {
     order: -1;
+  }
+
+  .videoSobre .container {
+    flex-direction: column;
+  }
+
+  .videoSobre-video {
+    margin: 0 auto;
   }
 }
