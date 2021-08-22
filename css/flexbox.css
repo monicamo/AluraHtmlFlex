@@ -48,7 +48,6 @@
   margin-left: 0;
 }
 
-
 .conteudoPrincipal-cursos {
   display: flex;
   flex-wrap: wrap;
@@ -100,5 +99,9 @@
 
   .rodapePrincipal-contatoForm-fieldset {
     justify-content: center;
+  }
+
+  .cabecalhoPrincipal-nav-link-app {
+    order: -1;
   }
 }
